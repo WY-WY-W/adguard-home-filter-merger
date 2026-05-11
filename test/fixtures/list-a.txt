@@ -1,0 +1,5 @@
+! List A
+||ads.example.com^
+||tracking.example.com^
+
+! Shared comment

@@ -1,0 +1,43 @@
+name: "Merged AdGuard Home Blocklist"
+homepage: "https://github.com/WY-WY-W/adguard-home-filter-merger"
+license: "MIT"
+
+output:
+  file: "dist/adguardhome-merged.txt"
+  metadata: "dist/metadata.json"
+
+build:
+  minimumRules: 10
+  allowEmpty: false
+
+aggressive:
+  compress: false
+  validate: false
+  removeModifiers: false
+  removeComments: false
+
+sources:
+  - name: "AdGuard DNS filter"
+    url: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+    enabled: true
+    description: "Pre-processed AdGuard hostlist registry filter"
+
+  - name: "HaGeZi's Apple Tracker Blocklist"
+    url: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_67.txt"
+    enabled: true
+    description: "Pre-processed AdGuard hostlist registry filter"
+    
+  - name: "HaGeZi's Pro Blocklist"
+    url: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_48.txt"
+    enabled: true
+    description: "Pre-processed AdGuard hostlist registry filter"
+
+  - name: "anti-AD"
+    url: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt"
+    enabled: true
+    description: "Pre-processed AdGuard hostlist registry filter"
+    
+  - name: "HaGeZi's Windows/Office Tracker Blocklist"
+    url: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_63.txt"
+    enabled: true
+    description: "Pre-processed AdGuard hostlist registry filter"

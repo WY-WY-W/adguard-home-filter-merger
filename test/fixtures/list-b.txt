@@ -1,0 +1,4 @@
+! List B
+||tracking.example.com^
+||analytics.example.com^
+

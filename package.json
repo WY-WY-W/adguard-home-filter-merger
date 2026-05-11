@@ -1,0 +1,23 @@
+{
+  "name": "adguard-home-filter-merger",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Merge pre-processed AdGuard blocklists into one AdGuard Home-compatible list.",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "node src/build.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@adguard/hostlist-compiler": "2.1.0",
+    "yaml": "2.8.4"
+  },
+  "overrides": {
+    "axios": "1.16.0",
+    "better-ajv-errors": "2.0.3",
+    "jsonpointer": "5.0.1"
+  }
+}
