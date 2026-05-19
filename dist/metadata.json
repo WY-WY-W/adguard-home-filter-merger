@@ -2,14 +2,14 @@
   "name": "Merged AdGuard Home Blocklist",
   "homepage": "https://github.com/WY-WY-W/adguard-home-filter-merger",
   "license": "MIT",
-  "generated_at": "2026-05-18T04:47:19.169Z",
+  "generated_at": "2026-05-19T04:43:03.650Z",
   "generator": {
     "name": "filter-merger",
     "version": "1.0.0"
   },
   "config_path": "/home/runner/work/adguard-home-filter-merger/adguard-home-filter-merger/config.yaml",
   "config_hash": "ddc628c6806f12152de5b7f181cda774f4bab93280528949e1cf1627a59f893d",
-  "output_hash": "a0faa9c642975e4018eebe037ddddc9ffadbf46e0a16c6b992573f37ec65b834",
+  "output_hash": "3dd6926a696ede80c0d71361732d381726537ac81a60596ce0c8d34ca0914e75",
   "output_files": {
     "file": "dist/adguardhome-merged.txt",
     "metadata": "dist/metadata.json"
@@ -18,11 +18,11 @@
     "sources_total": 5,
     "sources_enabled": 5,
     "sources_disabled": 0,
-    "input_lines": 469073,
+    "input_lines": 477045,
     "empty_lines_removed": 0,
-    "duplicate_lines_removed": 172452,
+    "duplicate_lines_removed": 172382,
     "comment_lines_removed": 0,
-    "output_rules": 296621
+    "output_rules": 304663
   },
   "aggressive": {
     "compress": false,
@@ -36,14 +36,14 @@
       "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt",
       "enabled": true,
       "description": "Pre-processed AdGuard hostlist registry filter",
-      "linesIn": 165392,
+      "linesIn": 165588,
       "sourceHeaderRemoved": 9,
-      "linesAfterCommentFiltering": 165392,
-      "linesOut": 165392,
+      "linesAfterCommentFiltering": 165588,
+      "linesOut": 165588,
       "emptyLinesRemoved": 0,
       "duplicateLinesRemoved": 0,
       "commentLinesRemoved": 0,
-      "bytes": 3904027
+      "bytes": 3908375
     },
     {
       "name": "HaGeZi's Apple Tracker Blocklist",
@@ -64,14 +64,14 @@
       "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_48.txt",
       "enabled": true,
       "description": "Pre-processed AdGuard hostlist registry filter",
-      "linesIn": 196704,
+      "linesIn": 204480,
       "sourceHeaderRemoved": 9,
-      "linesAfterCommentFiltering": 196704,
-      "linesOut": 111076,
+      "linesAfterCommentFiltering": 204480,
+      "linesOut": 118922,
       "emptyLinesRemoved": 0,
-      "duplicateLinesRemoved": 85628,
+      "duplicateLinesRemoved": 85558,
       "commentLinesRemoved": 0,
-      "bytes": 4447076
+      "bytes": 4634272
     },
     {
       "name": "anti-AD",
