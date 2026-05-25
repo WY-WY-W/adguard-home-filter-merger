@@ -32,10 +32,10 @@ sources:
     enabled: true
     description: "Pre-processed AdGuard hostlist registry filter"
 
-  - name: "anti-AD"
-    url: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt"
-    enabled: true
-    description: "Pre-processed AdGuard hostlist registry filter"
+#  - name: "anti-AD"
+ #   url: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt"
+  #  enabled: true
+   # description: "Pre-processed AdGuard hostlist registry filter"
     
   - name: "HaGeZi's Windows/Office Tracker Blocklist"
     url: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_63.txt"
