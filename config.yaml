@@ -11,10 +11,10 @@ build:
   allowEmpty: false
 
 aggressive:
-  compress: false
-  validate: false
-  removeModifiers: false
-  removeComments: false
+  compress: true
+  validate: true
+  removeModifiers: true
+  removeComments: true
 
 sources:
   - name: "AdGuard DNS filter"
