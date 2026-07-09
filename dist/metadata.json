@@ -2,14 +2,14 @@
   "name": "Merged AdGuard Home Blocklist",
   "homepage": "https://github.com/WY-WY-W/adguard-home-filter-merger",
   "license": "MIT",
-  "generated_at": "2026-07-08T06:07:43.672Z",
+  "generated_at": "2026-07-09T06:55:48.022Z",
   "generator": {
     "name": "filter-merger",
     "version": "1.0.0"
   },
   "config_path": "/home/runner/work/adguard-home-filter-merger/adguard-home-filter-merger/config.yaml",
   "config_hash": "6a0854513473be3ce4c4fdcadbeeccf9551ce97ec2285ea93dcb7f9eec2dafb9",
-  "output_hash": "61402055de5b504e9c98425500941d1f4eab5b57ab6d9301059cf67f8de760fa",
+  "output_hash": "a8b0fe7df9c2bbe03c5ee15a3c6245f93f82be8cdbecd6c7134fb78808195d75",
   "output_files": {
     "file": "dist/adguardhome-merged.txt",
     "metadata": "dist/metadata.json"
@@ -18,11 +18,11 @@
     "sources_total": 4,
     "sources_enabled": 4,
     "sources_disabled": 0,
-    "input_lines": 388075,
+    "input_lines": 387717,
     "empty_lines_removed": 0,
-    "duplicate_lines_removed": 71425,
+    "duplicate_lines_removed": 70924,
     "comment_lines_removed": 0,
-    "output_rules": 316650
+    "output_rules": 316793
   },
   "aggressive": {
     "compress": true,
@@ -36,14 +36,14 @@
       "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt",
       "enabled": true,
       "description": "Pre-processed AdGuard hostlist registry filter",
-      "linesIn": 155214,
+      "linesIn": 155417,
       "sourceHeaderRemoved": 9,
-      "linesAfterCommentFiltering": 155214,
-      "linesOut": 155214,
+      "linesAfterCommentFiltering": 155417,
+      "linesOut": 155417,
       "emptyLinesRemoved": 0,
       "duplicateLinesRemoved": 0,
       "commentLinesRemoved": 0,
-      "bytes": 3683367
+      "bytes": 3687898
     },
     {
       "name": "HaGeZi's Apple Tracker Blocklist",
@@ -64,28 +64,28 @@
       "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_48.txt",
       "enabled": true,
       "description": "Pre-processed AdGuard hostlist registry filter",
-      "linesIn": 232366,
+      "linesIn": 231804,
       "sourceHeaderRemoved": 9,
-      "linesAfterCommentFiltering": 232366,
-      "linesOut": 161304,
+      "linesAfterCommentFiltering": 231804,
+      "linesOut": 161244,
       "emptyLinesRemoved": 0,
-      "duplicateLinesRemoved": 71062,
+      "duplicateLinesRemoved": 70560,
       "commentLinesRemoved": 0,
-      "bytes": 5094494
+      "bytes": 5087126
     },
     {
       "name": "HaGeZi's Windows/Office Tracker Blocklist",
       "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_63.txt",
       "enabled": true,
       "description": "Pre-processed AdGuard hostlist registry filter",
-      "linesIn": 388,
+      "linesIn": 389,
       "sourceHeaderRemoved": 9,
-      "linesAfterCommentFiltering": 388,
+      "linesAfterCommentFiltering": 389,
       "linesOut": 46,
       "emptyLinesRemoved": 0,
-      "duplicateLinesRemoved": 342,
+      "duplicateLinesRemoved": 343,
       "commentLinesRemoved": 0,
-      "bytes": 13649
+      "bytes": 13692
     }
   ]
 }
