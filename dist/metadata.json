@@ -2,14 +2,14 @@
   "name": "Merged AdGuard Home Blocklist",
   "homepage": "https://github.com/WY-WY-W/adguard-home-filter-merger",
   "license": "MIT",
-  "generated_at": "2026-08-29T10:08:56.750Z",
+  "generated_at": "2026-08-30T09:17:20.157Z",
   "generator": {
     "name": "filter-merger",
     "version": "1.0.0"
   },
   "config_path": "/home/runner/work/adguard-home-filter-merger/adguard-home-filter-merger/config.yaml",
   "config_hash": "6a0854513473be3ce4c4fdcadbeeccf9551ce97ec2285ea93dcb7f9eec2dafb9",
-  "output_hash": "f8f32fb3d9c18060621c8dbc428e1665b226bcb83548314f2cfcf30557e8a9c4",
+  "output_hash": "82abc028ff7c320f21dce4851605890a4c3302155b8c5e69859f5af792d08371",
   "output_files": {
     "file": "dist/adguardhome-merged.txt",
     "metadata": "dist/metadata.json"
@@ -18,11 +18,11 @@
     "sources_total": 4,
     "sources_enabled": 4,
     "sources_disabled": 0,
-    "input_lines": 406109,
+    "input_lines": 406419,
     "empty_lines_removed": 0,
-    "duplicate_lines_removed": 80716,
+    "duplicate_lines_removed": 80723,
     "comment_lines_removed": 0,
-    "output_rules": 325393
+    "output_rules": 325696
   },
   "aggressive": {
     "compress": true,
@@ -36,14 +36,14 @@
       "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt",
       "enabled": true,
       "description": "Pre-processed AdGuard hostlist registry filter",
-      "linesIn": 178743,
+      "linesIn": 179053,
       "sourceHeaderRemoved": 9,
-      "linesAfterCommentFiltering": 178743,
-      "linesOut": 178743,
+      "linesAfterCommentFiltering": 179053,
+      "linesOut": 179053,
       "emptyLinesRemoved": 0,
       "duplicateLinesRemoved": 0,
       "commentLinesRemoved": 0,
-      "bytes": 4272623
+      "bytes": 4279498
     },
     {
       "name": "HaGeZi's Apple Tracker Blocklist",
@@ -67,9 +67,9 @@
       "linesIn": 226870,
       "sourceHeaderRemoved": 9,
       "linesAfterCommentFiltering": 226870,
-      "linesOut": 146516,
+      "linesOut": 146509,
       "emptyLinesRemoved": 0,
-      "duplicateLinesRemoved": 80354,
+      "duplicateLinesRemoved": 80361,
       "commentLinesRemoved": 0,
       "bytes": 4990916
     },
