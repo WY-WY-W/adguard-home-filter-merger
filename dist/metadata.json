@@ -2,14 +2,14 @@
   "name": "Merged AdGuard Home Blocklist",
   "homepage": "https://github.com/WY-WY-W/adguard-home-filter-merger",
   "license": "MIT",
-  "generated_at": "2026-09-15T08:44:15.435Z",
+  "generated_at": "2026-09-16T08:38:53.675Z",
   "generator": {
     "name": "filter-merger",
     "version": "1.0.0"
   },
   "config_path": "/home/runner/work/adguard-home-filter-merger/adguard-home-filter-merger/config.yaml",
   "config_hash": "6a0854513473be3ce4c4fdcadbeeccf9551ce97ec2285ea93dcb7f9eec2dafb9",
-  "output_hash": "6ce16b9d4188a2fd0819cca4cd2761e1f6fbe348521c60076051f66ea2aeae0a",
+  "output_hash": "40519819478feb0dd5688af3e861d8b7372e568e87df1abb0ba98b5295db2afe",
   "output_files": {
     "file": "dist/adguardhome-merged.txt",
     "metadata": "dist/metadata.json"
@@ -18,11 +18,11 @@
     "sources_total": 4,
     "sources_enabled": 4,
     "sources_disabled": 0,
-    "input_lines": 403435,
+    "input_lines": 404765,
     "empty_lines_removed": 0,
-    "duplicate_lines_removed": 79334,
+    "duplicate_lines_removed": 79430,
     "comment_lines_removed": 0,
-    "output_rules": 324101
+    "output_rules": 325335
   },
   "aggressive": {
     "compress": true,
@@ -36,14 +36,14 @@
       "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt",
       "enabled": true,
       "description": "Pre-processed AdGuard hostlist registry filter",
-      "linesIn": 179720,
+      "linesIn": 179698,
       "sourceHeaderRemoved": 9,
-      "linesAfterCommentFiltering": 179720,
-      "linesOut": 179720,
+      "linesAfterCommentFiltering": 179698,
+      "linesOut": 179698,
       "emptyLinesRemoved": 0,
       "duplicateLinesRemoved": 0,
       "commentLinesRemoved": 0,
-      "bytes": 4301629
+      "bytes": 4303406
     },
     {
       "name": "HaGeZi's Apple Tracker Blocklist",
@@ -64,14 +64,14 @@
       "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_48.txt",
       "enabled": true,
       "description": "Pre-processed AdGuard hostlist registry filter",
-      "linesIn": 223220,
+      "linesIn": 224572,
       "sourceHeaderRemoved": 9,
-      "linesAfterCommentFiltering": 223220,
-      "linesOut": 144246,
+      "linesAfterCommentFiltering": 224572,
+      "linesOut": 145502,
       "emptyLinesRemoved": 0,
-      "duplicateLinesRemoved": 78974,
+      "duplicateLinesRemoved": 79070,
       "commentLinesRemoved": 0,
-      "bytes": 4936943
+      "bytes": 4970251
     },
     {
       "name": "HaGeZi's Windows/Office Tracker Blocklist",
